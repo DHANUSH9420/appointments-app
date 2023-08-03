@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.list-container {
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #b5b7c4;
+  border-style: solid;
+  width: 250px;
+  height: 150px;
+  padding: 8px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 10px;
+}
+.flex-con {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-family: Roboto;
+  font-size: 25px;
+  color: #171f46;
+}
+.date {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #171f46;
+}
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  align-self: flex-start;
+}
+.img {
+  width: 25px;
+  height: 25px;
+}

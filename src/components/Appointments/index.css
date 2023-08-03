@@ -1,0 +1,117 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+.container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.min-continer {
+  background-color: #ffffff;
+  height: 80%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.con1 {
+  display: flex;
+}
+.heading {
+  font-family: Roboto;
+  font-size: 25px;
+  color: #000000;
+}
+.p {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #000000;
+}
+.form-div-Container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 5px;
+}
+.from {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.label {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #171f46;
+  margin-top: 15px;
+}
+.input {
+  font-size: 19px;
+  color: #171f46;
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #9796f0;
+}
+.btn2 {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #8b5cf6;
+  border-width: 0px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.img1 {
+  width: 300px;
+  height: 300px;
+}
+.pi {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+.button-2 {
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: #9796f0;
+  border-style: solid;
+  color: #8b5cf6;
+  font-size: 15px;
+  border-width: 2px;
+}
+.vv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.border-line {
+  border-radius: 2px;
+  border-color: #fbc7d4;
+  border-style: solid;
+  width: 100%;
+}
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
